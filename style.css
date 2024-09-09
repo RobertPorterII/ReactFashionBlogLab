@@ -1,31 +1,22 @@
-html{
-    border-left-style: solid;
-    border-color: lightgray;
-    border-width: 5px;
-}
-html, body{ 
-    min-height: 100vh;
-    overflow: auto;
-    font-family: sans-serif;
-    
-  }
+
 body {
     
-    min-height: 100%;
+    min-height: 100vh;
     max-width: 1000px;
-    margin: 0 auto
+    overflow: auto;
+    margin: 0 auto;
+    border-left: 5px solid lightgray;
+    font-family: sans-serif;
 
 
 }
 header, footer, main{
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-
+        padding: 1rem 2rem;
 }
 h1{
     font-size: 50px;
     color: tomato;
-    
+    font-weight: bold;
     
 }
 img{
